@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DC4BE69857A0367FDE91CEC /* Pods_hentaiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05744F0F2838423BB097DDFB /* Pods_hentaiz.framework */; };
+		9265C4AE213079F100C3F235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9265C4AD213079F100C3F235 /* AppDelegate.swift */; };
+		9265C4B0213079F100C3F235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9265C4AF213079F100C3F235 /* ViewController.swift */; };
+		9265C4B3213079F100C3F235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9265C4B1213079F100C3F235 /* Main.storyboard */; };
+		9265C4B5213079F300C3F235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9265C4B4213079F300C3F235 /* Assets.xcassets */; };
+		9265C4B8213079F300C3F235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9265C4B6213079F300C3F235 /* LaunchScreen.storyboard */; };
+		9265C4C021307B4000C3F235 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265C4BF21307B4000C3F235 /* Alamofire.framework */; };
+		9265C4C221307CD000C3F235 /* mainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9265C4C121307CD000C3F235 /* mainCell.swift */; };
+		92CA7695213080F600E9B5B1 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA7694213080F600E9B5B1 /* Order.swift */; };
+		92CA7697213086DE00E9B5B1 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA7696213086DE00E9B5B1 /* Play.swift */; };
+		92CA769921315F8700E9B5B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CA769821315F8700E9B5B1 /* AVFoundation.framework */; };
+		92CA769B21315F8B00E9B5B1 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CA769A21315F8B00E9B5B1 /* AVKit.framework */; };
+		92CA769D21317E4400E9B5B1 /* GetLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA769C21317E4400E9B5B1 /* GetLink.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05744F0F2838423BB097DDFB /* Pods_hentaiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hentaiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		446298DE61606C4CB21829A5 /* Pods-hentaiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hentaiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hentaiz/Pods-hentaiz.debug.xcconfig"; sourceTree = "<group>"; };
+		9265C4AA213079F100C3F235 /* hentaiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hentaiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9265C4AD213079F100C3F235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9265C4AF213079F100C3F235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9265C4B2213079F100C3F235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9265C4B4213079F300C3F235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9265C4B7213079F300C3F235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9265C4B9213079F300C3F235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9265C4BF21307B4000C3F235 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9265C4C121307CD000C3F235 /* mainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainCell.swift; sourceTree = "<group>"; };
+		92CA7694213080F600E9B5B1 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		92CA7696213086DE00E9B5B1 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		92CA769821315F8700E9B5B1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		92CA769A21315F8B00E9B5B1 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		92CA769C21317E4400E9B5B1 /* GetLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLink.swift; sourceTree = "<group>"; };
+		B33D9DACAF791F48FA06A226 /* Pods-hentaiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hentaiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-hentaiz/Pods-hentaiz.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9265C4A7213079F100C3F235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CA769B21315F8B00E9B5B1 /* AVKit.framework in Frameworks */,
+				92CA769921315F8700E9B5B1 /* AVFoundation.framework in Frameworks */,
+				9265C4C021307B4000C3F235 /* Alamofire.framework in Frameworks */,
+				3DC4BE69857A0367FDE91CEC /* Pods_hentaiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9265C4A1213079F100C3F235 = {
+			isa = PBXGroup;
+			children = (
+				9265C4AC213079F100C3F235 /* hentaiz */,
+				9265C4AB213079F100C3F235 /* Products */,
+				AB052F70D8E6F15704A0C1E5 /* Pods */,
+				B47F91C00F361554FAD43672 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9265C4AB213079F100C3F235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9265C4AA213079F100C3F235 /* hentaiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9265C4AC213079F100C3F235 /* hentaiz */ = {
+			isa = PBXGroup;
+			children = (
+				9265C4AD213079F100C3F235 /* AppDelegate.swift */,
+				92CA769C21317E4400E9B5B1 /* GetLink.swift */,
+				92CA7694213080F600E9B5B1 /* Order.swift */,
+				9265C4C121307CD000C3F235 /* mainCell.swift */,
+				9265C4AF213079F100C3F235 /* ViewController.swift */,
+				9265C4B1213079F100C3F235 /* Main.storyboard */,
+				92CA7696213086DE00E9B5B1 /* Play.swift */,
+				9265C4B4213079F300C3F235 /* Assets.xcassets */,
+				9265C4B6213079F300C3F235 /* LaunchScreen.storyboard */,
+				9265C4B9213079F300C3F235 /* Info.plist */,
+			);
+			path = hentaiz;
+			sourceTree = "<group>";
+		};
+		AB052F70D8E6F15704A0C1E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				446298DE61606C4CB21829A5 /* Pods-hentaiz.debug.xcconfig */,
+				B33D9DACAF791F48FA06A226 /* Pods-hentaiz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B47F91C00F361554FAD43672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92CA769A21315F8B00E9B5B1 /* AVKit.framework */,
+				92CA769821315F8700E9B5B1 /* AVFoundation.framework */,
+				9265C4BF21307B4000C3F235 /* Alamofire.framework */,
+				05744F0F2838423BB097DDFB /* Pods_hentaiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9265C4A9213079F100C3F235 /* hentaiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9265C4BC213079F300C3F235 /* Build configuration list for PBXNativeTarget "hentaiz" */;
+			buildPhases = (
+				EACBDFF39CC4C03B6A2C921E /* [CP] Check Pods Manifest.lock */,
+				9265C4A6213079F100C3F235 /* Sources */,
+				9265C4A7213079F100C3F235 /* Frameworks */,
+				9265C4A8213079F100C3F235 /* Resources */,
+				D7F012C6E789C371123C98EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hentaiz;
+			productName = hentaiz;
+			productReference = 9265C4AA213079F100C3F235 /* hentaiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9265C4A2213079F100C3F235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Thắng Nguyễn Hoàng";
+				TargetAttributes = {
+					9265C4A9213079F100C3F235 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9265C4A5213079F100C3F235 /* Build configuration list for PBXProject "hentaiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9265C4A1213079F100C3F235;
+			productRefGroup = 9265C4AB213079F100C3F235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9265C4A9213079F100C3F235 /* hentaiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9265C4A8213079F100C3F235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265C4B8213079F300C3F235 /* LaunchScreen.storyboard in Resources */,
+				9265C4B5213079F300C3F235 /* Assets.xcassets in Resources */,
+				9265C4B3213079F100C3F235 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D7F012C6E789C371123C98EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-hentaiz/Pods-hentaiz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hentaiz/Pods-hentaiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACBDFF39CC4C03B6A2C921E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hentaiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9265C4A6213079F100C3F235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265C4B0213079F100C3F235 /* ViewController.swift in Sources */,
+				9265C4C221307CD000C3F235 /* mainCell.swift in Sources */,
+				92CA769D21317E4400E9B5B1 /* GetLink.swift in Sources */,
+				92CA7695213080F600E9B5B1 /* Order.swift in Sources */,
+				9265C4AE213079F100C3F235 /* AppDelegate.swift in Sources */,
+				92CA7697213086DE00E9B5B1 /* Play.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9265C4B1213079F100C3F235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9265C4B2213079F100C3F235 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9265C4B6213079F300C3F235 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9265C4B7213079F300C3F235 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9265C4BA213079F300C3F235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9265C4BB213079F300C3F235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9265C4BD213079F300C3F235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 446298DE61606C4CB21829A5 /* Pods-hentaiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQ6JB49KXQ;
+				INFOPLIST_FILE = hentaiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hoangthang11051.hentaiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9265C4BE213079F300C3F235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33D9DACAF791F48FA06A226 /* Pods-hentaiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQ6JB49KXQ;
+				INFOPLIST_FILE = hentaiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hoangthang11051.hentaiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9265C4A5213079F100C3F235 /* Build configuration list for PBXProject "hentaiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9265C4BA213079F300C3F235 /* Debug */,
+				9265C4BB213079F300C3F235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9265C4BC213079F300C3F235 /* Build configuration list for PBXNativeTarget "hentaiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9265C4BD213079F300C3F235 /* Debug */,
+				9265C4BE213079F300C3F235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9265C4A2213079F100C3F235 /* Project object */;
+}
